@@ -11,7 +11,7 @@ const CharacterData = ({item}) => {
                 <div className="card-back">
                     <h1>{item.name}</h1>
                     <ul>
-                        <li><strong>Character Name: </strong>{item.portrayed}</li>
+                        <li><strong>Actor Name: </strong>{item.portrayed}</li>
                         <li><strong>Nickname: </strong>{item.nickname}</li>
                         <li><strong>Birthday: </strong>{item.birthday}</li>
                         <li><strong>Status: </strong>{item.status}</li>
