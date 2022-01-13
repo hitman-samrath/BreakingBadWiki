@@ -31,7 +31,7 @@ const App = () => {
     <>
       <Header />
       <Search receivequery={(typed) => getquery(typed)} />
-      <CharacterCard className="block" loading={loading} boxitem={boxitem} />
+      <CharacterCard loading={loading} boxitem={boxitem} />
       <Footer />
     </>
   )
