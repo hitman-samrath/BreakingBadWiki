@@ -1,0 +1,205 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #000 url('./Assets/bg.jpg') no-repeat;
+    width: 98%;
+    height: 100vh;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    height: 200px;
+}
+
+.form {
+    padding-top: 50px;
+    height: 100px;
+}
+
+.form-control {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    width: 65%;
+    border: 0;
+    border-radius: 5px;
+    outline: none
+}
+
+.spinner {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+}
+
+li {
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 4%;
+    gap: 1%;
+}
+
+.card {
+    position: relative;
+    width: 40vh;
+    height: 50vh;
+    display: grid;
+    cursor: pointer;
+    background-color: transparent;
+    perspective: 1000px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 40vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    position: absolute;
+}
+
+.card-back {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    transform: rotateY(180deg);
+}
+
+footer {
+    position: relative;
+    font-family: cursive;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    background-color: #000;
+}
+
+#insta {
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#insta:hover {
+    font-size: 30px;
+    color: #e1306c;
+    padding: 20px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#linkedin {
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#linkedin:hover {
+    font-size: 30px;
+    color: #0077b5;
+    padding: 20px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#github {
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#github:hover {
+    font-size: 30px;
+    color: rgb(8, 109, 21);
+    padding: 20px;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.last {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.lastname {
+    color: rgb(20, 119, 0);
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1268px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 0.1%;
+    }
+    .card,
+    .card img {
+        width: 100%;
+        height: 400px;
+    }
+    .card img {
+        object-fit: contain;
+    }
+}
