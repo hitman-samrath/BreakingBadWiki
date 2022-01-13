@@ -60,7 +60,7 @@ h1 {
     justify-content: center;
     /* grid-template-columns: repeat(4, 1fr); */
     /* margin-left: 5%; */
-    gap: 3%;
+    gap: 2%;
 }
 
 .card {
