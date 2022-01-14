@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BreakingBadWiki/static/css/main.38e50c74.chunk.css",
-    "main.js": "/BreakingBadWiki/static/js/main.ab7ea703.chunk.js",
-    "main.js.map": "/BreakingBadWiki/static/js/main.ab7ea703.chunk.js.map",
+    "main.css": "/BreakingBadWiki/static/css/main.48f36376.chunk.css",
+    "main.js": "/BreakingBadWiki/static/js/main.5b0d9959.chunk.js",
+    "main.js.map": "/BreakingBadWiki/static/js/main.5b0d9959.chunk.js.map",
     "runtime-main.js": "/BreakingBadWiki/static/js/runtime-main.b9ef729a.js",
     "runtime-main.js.map": "/BreakingBadWiki/static/js/runtime-main.b9ef729a.js.map",
     "static/js/2.6da36a7e.chunk.js": "/BreakingBadWiki/static/js/2.6da36a7e.chunk.js",
     "static/js/2.6da36a7e.chunk.js.map": "/BreakingBadWiki/static/js/2.6da36a7e.chunk.js.map",
     "index.html": "/BreakingBadWiki/index.html",
-    "static/css/main.38e50c74.chunk.css.map": "/BreakingBadWiki/static/css/main.38e50c74.chunk.css.map",
+    "static/css/main.48f36376.chunk.css.map": "/BreakingBadWiki/static/css/main.48f36376.chunk.css.map",
     "static/js/2.6da36a7e.chunk.js.LICENSE.txt": "/BreakingBadWiki/static/js/2.6da36a7e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/BreakingBadWiki/static/media/bg.085908ea.jpg",
     "static/media/logo.e6ecab44.png": "/BreakingBadWiki/static/media/logo.e6ecab44.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.b9ef729a.js",
     "static/js/2.6da36a7e.chunk.js",
-    "static/css/main.38e50c74.chunk.css",
-    "static/js/main.ab7ea703.chunk.js"
+    "static/css/main.48f36376.chunk.css",
+    "static/js/main.5b0d9959.chunk.js"
   ]
 }
